@@ -4,7 +4,7 @@ from sim.sim2d_prediction import sim_run
 # Simulator options.
 options = {}
 options['FIG_SIZE'] = [8,8]
-options['ALLOW_SPEEDING'] = False 
+options['ALLOW_SPEEDING'] = True 
 # when 'ALLOW_SPEEDING' is set to "True", the car speeds up at the intersection to cross the
 # traffic light before it turns red
 
