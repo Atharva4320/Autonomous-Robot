@@ -27,7 +27,7 @@ class AStarSearch:
         self.goal_str = str(goal)
         self.explored = {}
         self.not_explored = {}
-        self.not_explored[str(start)] = 0
+        self.not_explored[str(start)] = 0 
         self.grid = grid
         self.path = path
         self.h_grid = h_grid
